@@ -1,0 +1,445 @@
+
+/*.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}*/
+
+body {
+	background-color: #ffffff;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+h1,h2,h3 { 
+	font-family:'Georgia', Times, Times New Roman, serif;
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 190%;
+	word-spacing: 3px;
+	letter-spacing: 1px;
+}
+
+h2 {
+	font-size: 160%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    color: #4aaaa5;
+    float: left;
+    padding:25px 0 20px 0;
+    margin: 10px 25px;
+    border-bottom: 2px solid #CCCCCC;
+}
+
+h3 { 
+	font-size: 130%;
+	color: #4aaaa5;
+}
+
+p,
+li,
+a, 
+label, 
+textarea, 
+input {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 90%;
+	line-height: 145%; 
+}
+
+p,
+li { color: #777777; }
+
+.main-container { 
+	background-image: url(../images/concrete.png);
+	min-height: calc(100vh - 130px);
+	width: 100%;
+	float: left;
+}
+
+/* Nav */
+
+.bar {
+	background-color: #ffffff;
+	width: 100%;
+	height: 70px;
+	border-bottom: 2px solid #CCCCCC;
+}
+
+.bar nav a:link,
+.bar nav a:visited {
+	text-decoration: none;
+	color: #CCCCCC;
+	transition: border-bottom 0.2s, color 0.2s;
+}
+
+.bar nav a:hover,
+.bar nav a:active {
+	color: #999999;
+	border-bottom: 1px solid #999999;
+}
+
+.bar nav {
+    float: right;
+	list-style: none;
+	margin-top: 15px;
+	position: relative;
+	right: 270px;
+}
+
+.bar nav ul {
+	height: 28px;
+}
+
+.bar li {
+    display: inline-block;
+	margin-right: 10px;
+}
+
+.bar h1 {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	height: 50px;
+	width: 300px;
+	text-align: center;
+	padding-top: 20px;
+	float: left;
+	margin-top: 0;
+	position: relative;
+	left: 200px;
+}
+
+/* Bio */
+
+.bio,
+.contact,
+.portfolio {
+	width: 648px;
+	height: 500px;
+	margin: 60px 20px 20px 200px;
+	float: left;
+	background-color: #ffffff;
+	border: 1px solid #CCCCCC;
+}
+
+ .bio h2 { width: 570px; }
+
+.bio img {
+	height: 170px;
+	margin: 30px 10px 10px 20px;
+	float: left;
+}
+
+.bio p { 
+	text-align: justify;
+	margin: 40px; 
+	padding-top: 70px;
+	line-height: 1.8;
+}
+
+/* Connect */
+
+.connect {
+	background-color: #ffffff;
+	width: 268px;
+	height: 200px;
+	float: left;
+	text-align: center;
+	margin: 60px 0  0 20px;
+	border: 1px solid #CCCCCC;
+}
+
+.connect h3 {
+	padding-top: 25px;
+	color: #4aaaa5;
+	border-bottom: 2px solid #CCCCCC;
+    padding-bottom: 15px;
+}
+
+.connect img {
+	padding-top: 30px;
+	padding-left: 5px;
+	height: 70px;
+	opacity: 0.8;
+	transform: scale(1.10);
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+.connect img:hover {
+	opacity: 1;
+	transform: scale(1.03);
+}
+
+.connect a { text-decoration: none; }
+
+
+/* Contact page */
+
+.contact { height: 590px; }
+
+.contact-form {
+	width: 550px;
+    float: left;
+    background-color: #ffffff;
+    padding-top: 20px;
+} 
+
+.contact h2 { 
+	width: 520px;
+	margin-left: 50px;
+}
+
+label,
+textarea,
+input {
+	position: relative;
+	left: 50px;
+	color: #CCCCCC;
+}
+
+input { 
+	font-size: 70%; 
+	padding-top:5px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	width: 520px;
+	height: 25px;
+}
+
+textarea {
+	width: 520px;
+	height: 150px;
+	margin-top: 5px;
+}
+
+input[type=submit]{
+	background-color: #4aaaa5;
+	width: 100px;
+	height: 35px;
+	border: none;
+	font-size: 100%;
+	color: #ffffff;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+/* Portfolio */
+
+.portfolio { height: 850px; }
+
+.portfolio h2 { 
+	width: 550px;
+	margin-left: 40px;
+}
+
+.portfolio div {
+	height: 200px;
+	width: 232px;
+	margin: 30px 20px 20px 50px;
+	float: left;
+	background-color: #4aaaa5;
+}
+
+.portfolio a:link,
+.portfolio a:visited {
+	text-decoration: none;
+	height: 10px;
+	width: 200px;
+	color: #ffffff;
+	float: left;
+	text-align: center;
+	font-size: 100%;
+}
+
+.portfolio a:hover,
+.portfolio a:active {
+	color: #E6E6E6;
+	transition: border-bottom 0.2s, color 0.2s;
+}
+
+.portfolio img {
+	height: 150px;
+	width: 230px;
+	float: left;
+	border: 1px solid #CCCCCC;
+}
+
+/* Footer */
+
+footer {
+	float: left;
+	width: 100%;
+	height: 80px;
+	background-color: #666666;
+	border-top: 5px solid #4aaaa5;
+}
+
+footer p{
+	color: #ffffff;
+	font-size: 70%;
+	text-align: center;
+	padding-top: 30px;
+}
+
+
+/* Queries */
+
+@media only screen and (max-width: 980px) {
+
+	body {
+		font-weight: 200;
+	}
+
+	h1 { font-size: 160%;}
+	h2 { font-size: 130%;}
+	h3 { font-size: 100%;}
+
+    .bar h1 {
+		left: 50px;
+	}
+
+	.bar nav {
+		right: 50px;
+	}
+
+    .bio,
+	.contact {
+		width: 350px;
+		height: 600px;
+	}
+
+	.bio h2,
+	.portfolio h2,
+	.contact h2 { width: 250px; }
+
+	.bio img {
+		width: 80%;
+		margin-left: 10%;
+		margin-bottom: 20px;
+	}
+
+	.bio p { font-size: 80%; }
+
+	.portfolio {
+		width: 350px;
+		height: 1100px;
+	 }
+
+	 .portfolio div {
+		height: 150px;
+		width: 202px;
+	 }
+
+	 .portfolio a:link,
+	 .portfolio a:visited {
+		 text-decoration: none;
+		 height: 10px;
+		 width: 200px;
+	 }
+    .portfolio img {
+			height: 100px;
+			width: 200px;	
+	} 
+
+	.contact-form {
+		width: 100%;
+	}
+
+	input[type=text],
+	input[type=email],
+	textarea {
+		width: 80%;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	.bio, 
+	.portfolio,
+	.contact {
+		width: 600px;
+		margin: 60px 20px 20px 70px;
+	}
+
+	.bio { height: 400px;}
+
+	.bio h2,
+	.portfolio h2,
+	.contact h2 { width: 500px; }
+
+	.bio img {
+		height: 200px;
+		width: 200px;
+	}
+   
+	.connect {
+		width: 600px;
+		margin: 20px 20px 20px 70px;
+	}
+
+	.portfolio {
+		height: 700px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+
+	.bar h1 {
+		left: 0;
+		width: 100%;
+	}
+
+	.bar nav {
+		float: center;
+		margin-right: 20%;	
+	}
+
+    .bio, 
+	.portfolio,
+	.contact {
+		width: 400px;
+		height: 600px;
+		margin: 60px 10px 20px 20px;
+	}
+	
+	.bio h2,
+	.portfolio h2,
+	.contact h2 { width: 300px; }
+
+	.bio img {
+		width: 80%;
+		margin-left: 10%;
+		margin-bottom: 20px;
+	}
+
+	.connect {
+		width: 400px;
+		margin: 20px 10px 20px 20px;
+	}
+	.portfolio {
+		height: 1300px;
+	}
+
+	 .portfolio div {
+		height: 200px;
+		width: 262px;
+		margin-bottom: 1px;
+	 }
+
+	 .portfolio a:link,
+	 .portfolio a:visited {
+		 text-decoration: none;
+		 height: 10px;
+		 width: 200px;
+	 }
+    .portfolio img {
+			height: 150px;
+			width: 260px;	
+	} 
+
+}
