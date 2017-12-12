@@ -359,11 +359,14 @@ footer p{
 
 @media only screen and (max-width: 768px) {
 
-	.bio {
+	.bio, 
+	.portfolio,
+	.contact {
 		width: 600px;
-		height: 400px;
 		margin: 60px 20px 20px 70px;
 	}
+
+	.bio { height: 400px;}
 
 	.bio h2,
 	.portfolio h2,
@@ -377,6 +380,10 @@ footer p{
 	.connect {
 		width: 600px;
 		margin: 20px 20px 20px 70px;
+	}
+
+	.portfolio {
+		height: 700px;
 	}
 
 
